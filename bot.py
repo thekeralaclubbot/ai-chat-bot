@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 TOKEN = os.getenv("TELEGRAM_TOKEN")
-API_KEY = os.getenv("GEMINI_API_KEY")
+API_KEY = os.getenv("AIzaSyDxRyc7AwS6QwtnbSJyrAnpIVJKJu9RMEI")
 
 # Configure the generative model
 genai.configure(api_key=API_KEY)
